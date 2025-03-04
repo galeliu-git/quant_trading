@@ -1,0 +1,23 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有临时文件
+*.tmp
+*.swp
+
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略虚拟环境目录
+quant_venv/
+.env
+
+# 忽略构建输出目录
+dist/
+build/
+
+# 忽略测试代码
+/test_usless
+
+# 忽略所有以 .bak 结尾的文件
+*.bak
